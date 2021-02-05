@@ -25,10 +25,16 @@
 
  }
 
- .main-img {
-     margin-left: 400px;
-     margin-top: 180px;
+ .main-visual {
+     width: 100%;
+     height: 1100px;
      position: relative;
+ }
+
+ .main-img {
+     position: absolute;
+     top: 190px;
+     left: 400px;
  }
 
  .main-visual h1 {
@@ -80,4 +86,168 @@
      font-size: 28px;
      text-align: center;
      margin-top: 24px;
+ }
+
+ .nav {
+     border-top: 3px solid #34a1a5;
+     border-bottom: 3px solid #34a1a5;
+     margin: 280px 220px;
+ }
+
+ .nav li {
+     display: inline-block;
+     text-decoration: none;
+     background-color: #34a1a5;
+     font-weight: bold;
+     padding: 20px 50px;
+     margin: 70px 40px;
+     font-size: 40px;
+     color: #fcfcfc;
+ }
+
+ .nav ul {
+     text-align: center;
+ }
+
+ .content1 {
+     width: 100%;
+     height: 1100px;
+     position: relative;
+     padding-bottom: 200px;
+ }
+
+ .content2 {
+     width: 100%;
+     height: 1700px;
+     position: relative;
+ }
+
+ .content3 {
+     width: 100%;
+     height: 1700px;
+     position: relative;
+ }
+
+ .content4 {
+     width: 100%;
+     height: 1200px;
+     position: relative;
+     background-color: #e88531;
+ }
+
+ .content-title {
+     width: 220px;
+     height: 60px;
+     text-align: center;
+     background-color: #34a1a5;
+     font-weight: bold;
+     padding: 20px 20px 20px;
+     margin: 70px 40px;
+     font-size: 50px;
+     color: #fcfcfc;
+ }
+
+ .content-title {
+     position: absolute;
+     /*     top: 0;*/
+     left: 50%;
+     transform: translateX(-50%);
+     z-index: 1;
+ }
+
+ .about-img {
+     width: 1000px;
+     padding: 50px 10px 50px 50px;
+     background-color: #a3d2ca;
+     position: absolute;
+     top: 270px;
+     left: 50%;
+     /*シャドウでズレてるように見える変えるならここ*/
+     transform: translateX(-50%);
+     box-shadow: 60px 60px 0 0 #34a1a5;
+ }
+
+ #content2-box {
+     width: 900px;
+     padding: 200px 40px 120px;
+     background-color: #a3d2ca;
+     position: absolute;
+     top: 270px;
+     left: 50%;
+     /*シャドウでズレてるように見える変えるならここ*/
+     transform: translateX(-50%);
+     box-shadow: 60px 60px 0 0 #e88531;
+ }
+
+ .content-img {
+     margin: 30px;
+ }
+
+ .decoration-tag {
+     position: absolute;
+     top: 40px;
+     left: -50px;
+ }
+
+ #content2-box h2 {
+     color: #fcfcfc;
+     font-size: 50px;
+     position: absolute;
+     top: 50px;
+     right: 60px;
+ }
+
+
+ .caption1 {
+     position: absolute;
+     background-color: #34a1a5;
+     height: 382px;
+     width: 382px;
+     opacity: 0.7;
+     top: 677px;
+     right: 82px;
+ }
+
+ .caption2 {
+     position: absolute;
+     background-color: #e88531;
+     height: 382px;
+     width: 382px;
+     opacity: 0.7;
+     top: 677px;
+     right: 82px;
+ }
+
+
+ .caption:hover {
+     opacity: 0.9;
+ }
+
+ .instabutton {
+     text-decoration: none;
+     color: #fcfcfc;
+     font-size: 40px;
+     padding: 0px 125px;
+     line-height: 360px;
+ }
+
+ #content3-box {
+     width: 900px;
+     padding: 200px 40px 120px;
+     background-color: #a3d2ca;
+     position: absolute;
+     top: 270px;
+     left: 50%;
+     /*シャドウでズレてるように見える変えるならここ*/
+     transform: translateX(-50%);
+     box-shadow: 60px 60px 0 0 #34a1a5;
+ }
+
+
+ #content3-box h2 {
+     color: #fcfcfc;
+     font-size: 50px;
+     position: absolute;
+     top: 50px;
+     right: 60px;
  }
