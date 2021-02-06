@@ -103,19 +103,29 @@
 
  }
 
- .nav li {
+ li {
      display: inline-block;
-     text-decoration: none;
-     font-weight: bold;
      padding: 10px 40px;
      margin: 30px 30px;
+ }
+
+ .nav-text {
      font-size: 30px;
      color: #34a1a5;
+     text-decoration: none;
+     font-weight: bold;
  }
+
 
  .nav ul {
      text-align: center;
+     list-style: none;
  }
+
+ .nav-text:active {
+     color: #34a1a5;
+ }
+
 
  .content-title {
      width: 150px;
@@ -127,7 +137,6 @@
      font-size: 30px;
      color: #fcfcfc;
      position: absolute;
-     /*     top: 0;*/
      left: 50%;
      transform: translateX(-50%);
      z-index: 1;
@@ -299,7 +308,7 @@
          width: 80%;
      }
 
-     .nav li {
+     .nav a {
          width: 25vw;
          padding: 10px;
          font-size: 25px;
@@ -451,4 +460,17 @@
          height: 100px;
      }
 
+ }
+
+ .js-animation {
+     opacity: 0;
+     visibility: hidden;
+     transform: translateY(40px);
+     transition: all 1s;
+ }
+
+ .js-animation.is-show {
+     opacity: 1;
+     visibility: visible;
+     transform: translateY(0px);
  }
