@@ -30,7 +30,7 @@
 
  li {
      display: inline-block;
-     padding: 3.2vh 2vw 0px;
+     padding: 3vh 3vw 0px;
  }
 
  .nav-text {
@@ -39,15 +39,13 @@
      text-decoration: none;
      font-weight: bold;
      list-style: none;
-     /*     transition: 0.3s;*/
+     transition: 0.1s;
  }
 
- /*
  .nav-text:hover {
-     border-bottom: 6px dotted #34a1a5;
-     font-size: 35px;
+     border-bottom: 2px solid #fcfcfc;
  }
-*/
+
 
  .nav-text:active {
      color: #34a1a5;
