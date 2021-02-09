@@ -24,8 +24,8 @@
      padding: 1vh 0px;
      font-size: 40px;
      float: left;
-     margin-left: 22vw;
-     margin-right: 3vw;
+     margin-left: 18vw;
+     margin-right: 10vw;
  }
 
  li {
@@ -405,8 +405,8 @@
  @media all and (max-width:600px) {
 
      header h1 a {
-         margin-left: 12vw;
-         margin-right: 5vw;
+         margin-left: 8vw;
+         margin-right: 4vw;
      }
 
      li {
