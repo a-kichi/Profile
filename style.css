@@ -233,8 +233,7 @@
 
  .caption {
      position: absolute;
-     background-color: #34a1a5;
-     opacity: 0.9;
+     background-color: rgba(52, 161, 165, 0.5);
      top: 338px;
      right: 9.4%;
      transition: 0.3s;
@@ -245,7 +244,7 @@
  }
 
  .caption:hover {
-     background-color: #fcfcfc;
+     background-color: rgba(255, 255, 255, 0.9);
      color: #34a1a5;
      padding: 61px 31px;
      border: 2px solid #34a1a5;
